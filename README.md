@@ -1,17 +1,8 @@
 ## Module SNS
-```hcl
-module "users_unencrypted" {
-  source = "git::ssh://git@github.com:tonygyerr/terraform-aws-sns.git"
-
-  name = "users-unencrypted"
-
-  tags = {
-    Secure = "false"
-  }
-}
+```hcl  
 
 module "users_encrypted" {
-  source = "git::ssh://git@github.com:tonygyerr/terraform-aws-sns.git"
+  source = "git::https://github.com/tonygyerr/terraform-aws-sns.git"
 
   name_prefix       = "users-encrypted-"
   display_name      = "users-encrypted"
