@@ -32,15 +32,6 @@ terraform apply -var-file="../env-config/dev.tfvars" -auto-approve
 terraform destroy -var-file="../env-config/dev.tfvars"
 ```
 
-## How to Run this Module using Makefile Process
-```bash
-make auth
-make get
-make init
-make plan
-make apply
-```
-
 ## Requirements
 
 | Name | Version |
