@@ -1,3 +1,3 @@
 data "aws_kms_alias" "sns" {
-  name = "alias/aws/sns"
+  name = var.kms_alias
 }

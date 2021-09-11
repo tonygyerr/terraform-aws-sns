@@ -4,8 +4,8 @@ variable "create_sns_topic" {
   default     = true
 }
 
-variable "name" {
-  description = "The name of the SNS topic to create"
+variable "kms_alias" {
+  description = "The alias for KMS"
   type        = string
   default     = ""
 }

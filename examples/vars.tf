@@ -9,3 +9,10 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "kms_alias" {
+  description = "The alias for KMS"
+  type = string
+  default = ""
+  
+}
