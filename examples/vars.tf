@@ -14,5 +14,4 @@ variable "kms_alias" {
   description = "The alias for KMS"
   type = string
   default = ""
-  
 }
